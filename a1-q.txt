@@ -1,0 +1,115 @@
+10. The following array contains marks of four students in three subjects:
+
+marks = np.array([
+    [80, 75, 90],
+    [65, 70, 72],
+    [88, 92, 85],
+    [55, 60, 58]
+])
+
+Calculate:
+
+Total marks of each student
+Average marks of each student
+Average marks in each subject
+Student with the highest total
+Highest mark in each subject.
+
+11. Create:
+
+A = np.array([
+    [1, 2],
+    [3, 4]
+])
+
+B = np.array([
+    [5, 6],
+    [7, 8]
+])
+
+Perform:
+
+Matrix addition
+Element-wise multiplication
+Matrix multiplication
+Transpose of A.
+
+explain the difference between:
+A * B and A @ B
+
+12. Daily temperatures for two weeks are:
+
+temperature = np.array([
+    31, 32, 33, 35, 36, 34, 32,
+    30, 29, 31, 33, 35, 37, 36
+])
+
+Find:
+
+Mean temperature
+Maximum and minimum temperatures
+Number of days above the average temperature
+Temperatures greater than 34°C
+Difference between maximum and minimum
+Standard deviation
+
+13. Monthly sales of a company are:
+sales = np.array([
+    12000, 15000, 17000, 14000,
+    18000, 21000, 19000, 22000,
+    25000, 23000, 26000, 28000
+])
+
+Determine:
+
+Total annual sales
+Average monthly sales
+Month with the highest sales
+Month with the lowest sales
+Number of months with sales above ₹20,000
+Percentage increase from January to December
+
+Hint: Remember that NumPy indexing starts at 0, while month numbering normally starts at 1.
+
+14. Consider marks of five students in four subjects:
+
+marks = np.array([
+    [78, 85, 90, 88],
+    [65, 70, 72, 68],
+    [92, 88, 95, 91],
+    [55, 60, 58, 62],
+    [80, 75, 82, 79]
+])
+
+Write a NumPy program that calculates:
+
+Total marks of every student
+Average of every student
+Average mark for every subject
+Highest-scoring student
+Lowest-scoring student
+Students whose average is greater than 80
+Overall class average
+
+Then assign a performance category based on average:
+
+|  Average | Category          |
+| -------: | ----------------- |
+|     ≥ 85 | Excellent         |
+| 70–84.99 | Good              |
+| 50–69.99 | Average           |
+|     < 50 | Needs Improvement |
+
+Challenge: Try assigning these categories using np.where() or np.select() instead of a Python loop.
+
+15. Generate 20 random integers between 1 and 100.
+16. Find all even numbers from the generated array.
+17. Replace values below 50 with 0.
+18. Sort the array in ascending and descending order.
+19. Find unique values and their frequencies.
+20. Create a 5 × 5 random matrix and calculate row-wise and column-wise means.
+
+21. Take your own example to normalize an array.  
+22. use your own data to standardize an array. 
+23. Create a NumPy array containing 100 random exam marks and determine how many students fall into the ranges 0–39, 40–59, 60–79, and 80–100.
+24. Compare the time required to multiply 1,000,000 numbers using a Python list and a NumPy array.
